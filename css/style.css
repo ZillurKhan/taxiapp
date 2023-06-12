@@ -2414,6 +2414,8 @@ a.btn-link {
     box-shadow: 0 0 0 1px #ebebeb;
     background: #ffffff;
     border-radius: 50%;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
 }
 .arrow-indicator.owl-theme .owl-nav .owl-next{
     margin-left: 10px;
@@ -2971,13 +2973,16 @@ a.detail-link {
     text-decoration: none;
     color: #495057;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
 .card-title{
     font-size: 22px;
     line-height: 32px;
     font-weight: 600;
+}
+.single-blog-card:hover .card-title{
+    color: #9629E6;
 }
 
 a.detail-link span {
@@ -2990,11 +2995,12 @@ a.detail-link span {
 
 
 a.detail-link:hover {
-    color: #202877;
+    color: #9629E6;
 }
 a.detail-link:hover span{
     transform: translateX(3px);
     margin-left: 8px;
+    color: #9629E6;
 }
 
 /*blog single page css*/
