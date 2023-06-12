@@ -1208,6 +1208,40 @@ span.sub-title{
     position: absolute;
     height: 1200px;
 }
+.circle-icon{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background: #6730E3;
+    position: relative;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .circle-icon::before{
+    content: "";
+    width: 100px;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 26px solid #6730E3;
+    border-left: 26px solid #ffffff;
+    border-right: 26px solid #ffffff;
+}
+.circle-icon::after{
+    content: "";
+    width: 100px;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 26px solid #6730E3;
+    border-left: 26px solid #ffffff;
+    border-right: 26px solid #ffffff;
+} */
+
 .point {
     border-radius: 50%;
     z-index: 999;
@@ -1414,9 +1448,9 @@ span.sub-title{
     background-position: 45% 20%;
 }
 .single-promo img{
-    width: 70px;
-    height: 70px;
-    margin-bottom: 20px;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 0;
 }
 .single-promo .img-full-box{
     width: auto !important;
@@ -2265,6 +2299,11 @@ a.btn-link {
     font-size: 18px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.accordion-faq.accordion > .card .card-header img{
+    margin-right: 15px;
 }
 .accordion-faq.accordion .card-header[aria-expanded=false]:after {
     content: "\e61a";
@@ -2282,6 +2321,15 @@ a.btn-link {
     transform: translateY(-50%);
     font-family: themify;
     color: #9629e6;
+}
+
+.faq-block .accordion-faq.accordion .card-header { 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.faq-block .accordion-body{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /*sccreenshot css*/
