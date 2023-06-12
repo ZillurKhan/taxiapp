@@ -517,7 +517,10 @@ span.sub-title{
     font-size: inherit;
     height: auto;
     padding: 0;
-    margin-bottom: -8px;
+    margin-bottom: 0px;
+}
+.navbar-brand img{
+    width: 180px;
 }
 .navbar-toggler{
     background: transparent;
@@ -557,6 +560,9 @@ span.sub-title{
 }
 .white-bg.custom-nav ul li a:hover{
     opacity: 1;
+}
+.main-menu ul>li:last-child a{
+    padding-right: 0;
 }
 .bg-transparent ul li a{
     color: #ffffff;
