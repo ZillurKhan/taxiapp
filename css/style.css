@@ -1553,9 +1553,17 @@ span.sub-title{
 .download-section .download-content .list-unstyled{
     margin-bottom: 30px;
 }
-.download-section .download-content .list-unstyled{
-
+@media(max-width: 1100px){
+    .download-section .download-img{
+        margin: -72px;
+    }
 }
+@media(max-width: 1024px){
+    .download-section .download-img{
+        margin: 0px 0 -128px -50px;
+    }
+}
+
 
 /*=================================
     card css
