@@ -2781,9 +2781,9 @@ a.btn-link {
 .border-gray-light {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-.footer-bottom p, .footer-bottom p a{
+.footer-bottom p, .footer-bottom  a, .terms-policy-wrap{
     font-size: 14px;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 .footer-bottom ul li a{
     color: #ffffff;
